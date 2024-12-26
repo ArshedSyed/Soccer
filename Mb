@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Soccer Website - Latest News, Teams, and More">
+  <title>Soccer World</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#teams">Teams</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="section">
+    <h1>Welcome to Soccer World!</h1>
+    <p>Your one-stop destination for all things soccer.</p>
+    <img src="soccer-image.jpg" alt="Soccer game in action">
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>We are passionate about soccer, bringing the latest news, match results, and team updates from around the globe.</p>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="section">
+    <h2>Latest News</h2>
+    <ul>
+      <li><strong>Match Update:</strong> Real Madrid beats Barcelona in El Clasico!</li>
+      <li><strong>Player Transfer:</strong> Messi signs with Inter Miami.</li>
+      <li><strong>Injuries:</strong> Ronaldo suffers minor injury during training.</li>
+    </ul>
+  </section>
+
+  <!-- Teams Section -->
+  <section id="teams" class="section">
+    <h2>Top Teams</h2>
+    <div class="team">
+      <h3>Manchester United</h3>
+      <p>One of the most successful clubs in English football history.</p>
+    </div>
+    <div class="team">
+      <h3>FC Barcelona</h3>
+      <p>Known for their possession-based playing style and history of great players.</p>
+    </div>
+    <div class="team">
+      <h3>Bayern Munich</h3>
+      <p>Germany's top club with a legacy of winning both domestic and international trophies.</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>For inquiries, reach us via email at <a href="mailto:soccerworld@example.com">soccerworld@example.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Soccer World. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
